@@ -28,6 +28,12 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+    	android:key="bluetooth_show_battery"
+        android:title="@string/bluetooth_battery_title"
+        android:summary="@string/bluetooth_battery_summary"
+        android:defaultValue="false" />  
+
     <PreferenceScreen
         android:key="heads_up_settings"
         android:title="@string/headsup_settings_title"
