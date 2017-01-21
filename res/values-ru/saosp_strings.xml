@@ -179,16 +179,10 @@
 
     <!-- Advanced data tile -->
     <string name="quicksettings_tiles_category">Плитки быстрых настроек</string>
-    <string name="qs_advanced_data_title">Плитка Мобильные данные</string>
-    <string name="qs_advanced_data_summary">Включение или выключение мобильных данных одиночным нажатием на плитку</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вибрация при касании</string>
     <string name="quick_settings_vibrate_summary">Вибрировать при касании по плитке</string>
-
-    <!-- Button settings  -->
-    <string name="qs_wifi_easy_toggle_title">Плитка WiFi</string>
-    <string name="qs_wifi_easy_toggle_summary">Включение или выключение WiFi одиночным нажатием на плитку</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
@@ -357,10 +351,6 @@
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
 
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">Разблокировать устройство без нажатия OK\nПрим.: только для 4-значного PIN !</string>
-
     <!--Navigation bar category -->
     <string name="navigation_bar_title">Панель навигации</string>
 
@@ -382,10 +372,6 @@
 
     <!-- Restart SystemUI -->
     <string name="restart_systemui">Перезапустить SystemUI</string> 
-
-    <!-- Advanced bluetooth tile -->
-    <string name="qs_advanced_bluetooth_title">Плитка Bluetooth</string>
-    <string name="qs_advanced_bluetooth_summary">Включение или выключение Bluetooth одиночным нажатием на плитку</string>
 
     <string name="dashboard_conditions_title">Уведомления в главном меню</string>
     <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
@@ -444,7 +430,7 @@
     <string name="navigation_bar_size_0_dp">0 dp (выкл.)</string>
 
     <!-- Three finger swipe screenshot -->
-   <string name="display_screenshot_category">Снимок экрана</string>
+    <string name="display_screenshot_category">Снимок экрана</string>
     <string name="three_finger_gesture">Снимок экрана</string>
     <string name="three_finger_gesture_summary">Создание снимка экрана свайпом вниз тремя пальцами</string>
 
@@ -519,4 +505,16 @@
   
     <!-- Advanced qs tile toggle category -->
     <string name="qs_tile_advanced_toggle">Настройки плиток</string> 
+     
+    <!-- One handed mode -->
+    <string name="one_handed_mode_title">Режим одной руки</string>
+    <string name="one_handed_mode_summary">Включать режим одной руки свайпом по панели навигации</string>
+
+    <!-- Navigation bar Buttons order -->
+    <string name="swap_navigation_keys_title">Поменять кнопки</string>
+    <string name="swap_navigation_keys_summary">Поменять местами кнопки «Назад» и «Открытые приложения»</string>  
+     
+    <!-- QS easy toggles -->
+    <string name="qs_easy_toggle_title">Легкое переключение для плиток</string>
+    <string name="qs_easy_toggle_summary">Включение или отключение мобильных данных, Wi-Fi и Bluetooth одиночным нажатием на плитку</string> 
 </resources>
